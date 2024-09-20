@@ -51,3 +51,13 @@ code, pre {
 pre {
     overflow-x: auto;
 }
+
+.rojo{
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color:red;
+    background-color: var(--card-background);
+    padding: 20px;
+    border-radius: 8px;
+}

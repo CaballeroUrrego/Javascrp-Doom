@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fundamentos JavaScript</title>
-    <link rel="icon" href="/img/js.png" type="image/x-icon">
-    <link rel="stylesheet" href="/Curso_Nuevo/css/style.css">   
-</head>
-<body>
+    <link rel="icon" href="/img/js.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/Curso_Nuevo/css/style.css" />
+  </head>
+  <body>
     <h1>Fundamentos JavaScript</h1>
-    <img src="/img/programando.jpeg " alt="Programando enperradisimo" class="rounded">
+    <img
+      src="/img/programando.jpeg "
+      alt="Programando enperradisimo"
+      class="rounded"
+    />
     <h2>Sebastian Urrego estuvo aquí.</h2>
-    <p>Deje de declarar las h***** variables  con var no sea mk*** eso ya no se usa </p>
+    <p>
+      Deje de declarar las variables con var ¿por que? ya no se usa y si tu
+      proyecto se vuelve mas grande,declarala con la palabra let
+    </p>
+
+    <p class="rojo">
+      Por que ya tenemos amitos de bloque y la podemos declarar con la palabra
+      let usar var es mala practica por que cuando la logica se vuelve mas
+      completa utilizar variables globales te puede meter en un problema de
+      reasignacion de valores
+    </p>
+    <p>Abre la consola de tu navegodor favorito</p>
     <script>
-        var hola = "Hola Mundo";
-     let hello = "Hello world";
-        console.log(hola);
-        console.log(hello);
-        console.log(window);
-        console.log(window.hola)
-        console.log(window.hello)
-        //Ambito de bloque
+      var hola = "Hola Mundo";
+      let hello = "Hello world";
+      console.log(hola);
+      console.log(hello);
+      console.log(window);
+      console.log(window.hola);
+      console.log(window.hello);
+      //Ambito de bloque
+      var musica = "rock";
+      console.log("Variable Musica antes del Bloque", musica);
     </script>
-</body>
+  </body>
 </html>
